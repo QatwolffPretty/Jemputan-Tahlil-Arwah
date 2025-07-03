@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jemputan Tahlil Arwah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Majlis Tahlil & Doa Selamat</h1>
+    <p class="subtitle">Sambutan Awal Muharam</p>
+    <p class="location">B16, Parit Seri, Jalan Temenggung Ahmad, 84000, Parit Jawa, Johor</p>
+
+    <section>
+      <h2>Aturcara</h2>
+      <ul>
+        <li>10:00 pagi – Ucapan TH Amir Anuar</li>
+        <li>10:05 pagi – Yassin & Tahlil</li>
+        <li>10:30 pagi – Jamuan & Ramah Mesra</li>
+        <li>1:00 ptg – Solat Zuhur</li>
+        <li>2:00 ptg – Mesyuarat Keluarga</li>
+        <li>3:00 ptg – Bersurai</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Menu</h2>
+      <ul>
+        <li>Nasi Beriani Kambing & Ayam</li>
+        <li>Ayam Masak Merah</li>
+        <li>Kuih Muih & Buah Potong</li>
+        <li>Tapai Pulut, Ais Krim & Cendol</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dalam Kenangan</h2>
+      <ul>
+        <li>Allahyarham Anuar bin Hassan (1915–2003)</li>
+        <li>Allahyarhamah Sakirah binti Mohd Nor (1922–2021)</li>
+        <li>Allahyarham Md Ralib bin Anuar (1938–2000)</li>
+        <li>Allahyarhamah Azizah binti Anuar (1941–1941)</li>
+        <li>Allahyarhamah Siti Rubiah binti Abd Wahab (1941–2022)</li>
+        <li>Allahyarhamah Zainon binti Norjaai (1949–2010)</li>
+        <li>Allahyarhamah Fatiah binti Anuar (1945–2022)</li>
+        <li>Allahyarhamah Nurul Ashikin binti Ismail (1967–2016)</li>
+        <li>Allahyarham Md Suhaimi bin Othman (1962–2016)</li>
+        <li>Allahyarham Mohd Nadzim bin Ibrahim (1956–2002)</li>
+        <li>Allahyarham Ismail bin Man (1949–2021)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>RSVP Kehadiran</h2>
+      <form id="rsvpForm">
+        <label>Nama:</label>
+        <input type="text" id="nama" required />
+        <label>Jumlah Pax:</label>
+        <input type="number" id="pax" required min="1" />
+        <button type="submit">Hantar</button>
+      </form>
+      <p id="thankYou" style="display:none;">Terima kasih atas pengesahan kehadiran!</p>
+    </section>
+
+    <section class="total">
+      Jumlah tetamu bakal hadir: <span id="totalPax">Sedang dikira...</span>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
