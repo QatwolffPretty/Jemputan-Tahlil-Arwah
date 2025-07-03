@@ -1,5 +1,5 @@
 
-https://script.google.com/macros/s/AKfycbyJyk6tA4hYQ605D4wsoTPqzKLne9AOcpBdW-nGmdKmjIBjasss7savVbklZswpTG5Skg/exec;
+const scriptURL = https://script.google.com/macros/s/AKfycbyJyk6tA4hYQ605D4wsoTPqzKLne9AOcpBdW-nGmdKmjIBjasss7savVbklZswpTG5Skg/exec;
 
 document.getElementById('rsvpForm').addEventListener('submit', function(e) {
   e.preventDefault();
